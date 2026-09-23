@@ -1,0 +1,119 @@
+start,end,text
+0.000,4.200,Máte radi súťaživosť? Vyskúšajme si v tomto videu zasúťažiť.
+5.000,8.000,"Vyberieme si napríklad hru Kameň, papier, nožnice."
+8.500,14.200,"Základným princípom našej elektronickej hry Kameň, papier, nožnice bude náhoda,"
+14.400,18.900,"teda náhodné vyberanie spomedzi kameňa, papiera a nožníc."
+19.000,23.100,"Možno sa zamýšľate nad tým, že sa budeme učiť nový príkaz,"
+23.100,25.900,napríklad generovanie náhodného symbolu.
+26.200,28.200,Taký príkaz však neexistuje.
+28.400,31.400,"Namiesto toho budeme pracovať s tým, čo už vieme."
+31.600,35.400,"To znamená, že budeme náhodne generovať číslo od 1 do 3"
+36.100,39.900,a na základe týchto čísel budeme priraďovať konkrétne symboly.
+40.100,42.100,"Kameň, papier a nožnice."
+42.600,46.900,"Najskôr si vytvoríme nový projekt s názvom Kameň, papier, nožnice."
+47.400,52.400,"Bloky počas spustenia a vždy nebudeme potrebovať, takže ich môžeme vymazať."
+53.100,57.100,Namiesto toho vyberieme zo vstupu potrasenie.
+57.600,61.100,"To znamená blok, keď potrasenie vyberieme."
+61.600,65.600,"Vždy, keď budeme triasť, budeme sa hrať Kameň, papier alebo nožnice."
+66.600,69.600,Následne potrebujeme vytvoriť premennú ruka.
+70.100,76.600,"Ideme do červenej kategórie premenná a vytvoríme premennú, ktorú pomenujeme ruka."
+76.800,83.800,"My chceme nastavovať túto našu premennú ruka na náhodne generované čísla 1, 2 alebo 3."
+84.300,87.300,Vyberieme blok nastaviť ruka na 0.
+87.800,91.800,Avšak teraz tá premenná sa vždy bude nastavovať na 0.
+92.300,95.300,"My ju chceme nastavovať na 1, 2 alebo 3."
+95.800,98.800,"To znamená, že ideme do fialovej kategórie matematika"
+99.300,103.800,"a vyberieme z tej príkaz, ktorý už veľmi dobre poznáme a nastavíme."
+104.000,110.000,"My máme tri symboly, takže budeme mať tri čísla 1, 2 alebo 3."
+110.500,114.500,"To znamená, že rozsah bude od 1 do 3."
+115.500,120.500,"Tu sa nám bude generovať náhodné číslo, ktoré sa následne uloží do premennej ruka."
+121.000,124.000,Teraz budeme pracovať s podmienkou.
+124.500,128.500,"To znamená, že ideme do tyrkysovej kategórie."
+129.200,133.200,"Lenže my nemôžeme hovoriť, že ak sa stala nejaká pravda,"
+133.700,135.700,potom sa niečo vykoná.
+136.200,140.200,"My chceme do tej podmienky zakomponovať čísla 1, 2 alebo 3."
+140.700,143.700,"To znamená, ak padne jednotka, bude to kameň."
+144.200,146.200,"Ak padne dvojka, bude to papier."
+146.700,149.700,"A keď sa stala nejaká pravda, potom sa niečo vykoná."
+150.200,153.200,"A keď sa stala nejaká pravda, potom sa niečo vykoná."
+153.700,156.700,"A keď sa stala nejaká pravda, potom sa niečo vykoná."
+156.900,158.900,"Ak padne dvojka, bude to papier."
+159.400,161.400,"Ak padne trojka, budú to nožnice."
+161.900,163.900,"To znamená, že musíme niečo porovnávať."
+164.400,168.400,Ideme opäť do logiky a vyberieme si porovnanie.
+168.900,174.900,"To znamená príkaz 0 sa rovná 0, ktorú vložíme do pravdy."
+175.900,181.900,"Teraz blok vyzerá tak, že ak 0 sa rovná 0, potom sa niečo vykoná."
+182.100,187.100,"My sa chceme opýtať, či tá naša premenná ruka sa rovná 1."
+187.600,189.600,Či sme teda náhodne vygenerovali jednotku.
+190.100,193.100,"To znamená, že ideme znova do červenej kategórie premenná"
+194.100,200.100,"a zoberieme si oválny blok ruka, ktorý vložíme do ľavej 0."
+203.100,210.100,"Ak ruka sa rovná 1, potom budeme zobrazovať kameň."
+210.800,216.800,To znamená modrá kategória základné zobraziť LED a vložíme ju do podmienky.
+217.800,220.800,Následne si môžeme vykresliť kameň.
+224.800,228.800,"Kameň už máme hotový, ešte potrebujeme papier a nožnice."
+229.300,234.300,"Túto podmienku dokážeme rozšíriť tak, že stlačíme plusko pri podmienke."
+234.500,238.500,"My budeme potrebovať nie len tento priestor, ale ešte jeden,"
+239.000,241.000,"pretože pracujeme aj s dvojkou, aj s trojkou."
+241.500,243.500,"To znamená, klikneme ešte raz na plusko"
+244.500,246.500,a sem môžeme znova dať podmienku.
+247.000,251.500,"To znamená, inak ak ruka sa rovná 1,"
+252.000,256.500,"toto môžeme zduplikovať, vložíme to sem"
+257.500,260.500,a premeníme iba číslo 1 za 2.
+260.700,263.700,A premeníme iba číslo 1 za 2.
+264.700,266.700,"Inak, ak ruka sa rovná 2,"
+267.200,269.700,potom budeme vykresľovať papier.
+270.700,273.700,Znova zoberieme zobraziť LED blok
+274.700,279.700,"a vložíme k ruke, ktorá spadá pod dvojku."
+281.700,283.700,Teraz si vykreslíme papier.
+283.900,286.900,"Čo sa stane, ak nepadne ani jednotka, ani dvojka?"
+287.900,289.900,"Znamená to, že nám padne trojka."
+290.900,294.900,"To znamená, inak, a už sem nemusíme vkladať ďalšiu podmienku,"
+295.900,297.900,"pretože my vieme, že všetko, čo je inak"
+298.900,300.900,"od jednotky a aj dvojky, bude vždy trojka."
+301.900,305.900,"To znamená, znova vytiahneme blok zobraziť LED"
+306.900,309.900,a nám vykreslíme trojka.
+310.100,312.100,Znova vytiahneme blok zobraziť LED
+313.100,317.100,"a nakreslíme to posledné, čo nám chýba, a to sú nožnice."
+325.100,328.100,Náš program si teraz môžeme vyskúšať v simulátore.
+329.100,332.100,Potrasím a zobrazil sa nám papier.
+333.100,337.100,"To znamená, že sa nám do premennej ruka"
+337.300,340.300,"automaticky uložila dvojka,"
+341.300,343.300,"čo znamená, že sa nám zobrazil papier."
+344.300,346.300,Nahratý program do mikrobita môžeme vyskúšať.
+347.300,349.300,Padol kameň.
+350.300,352.300,Teraz padol papier.
+353.300,355.300,Kameň.
+356.300,358.300,A znova padol kameň.
+359.300,361.300,Medzi tým však nemáme žiadnu pauzu
+362.300,364.300,"a môže sa nám zdať, že my sme potriasli"
+364.500,366.500,a kameň nám akoby nezaregistrovalo.
+367.500,369.500,Musíme sa opäť vrátiť do prostredia MakeCode
+370.500,372.500,a použijeme ešte dva príkazy.
+373.500,375.500,"Jedným z nich je pozastaviť,"
+376.500,378.500,ktorý si vložíme za podmienku.
+379.500,382.500,Môžeme pozastaviť napríklad na jednu sekundu.
+383.500,388.500,Následne sa ale stále bude obrázok zobrazovať na mikrobite.
+389.500,391.500,My ho potrebujeme ešte vymazať.
+391.700,393.700,"To znamená, že ideme znova do modrej kategórie základná"
+394.700,397.700,"a vyberieme vymazať obrazovku, ktorú dáme za pauzu."
+398.700,400.700,Teraz skúsme opäť nahrať program do mikrobita.
+401.700,403.700,Náš aktualizovaný program je už v mikrobite
+404.700,406.700,a poďme si ho vyskúšať.
+407.700,409.700,"Potrasím, zobrazia sa nožnice."
+410.700,412.700,Teraz zmiznú.
+413.700,415.700,"Znova potrasím, opäť sa zobrazia nožnice."
+416.700,418.700,Elektronická verzia kameň-papier-nožnice
+418.900,420.900,"zobrazí na ešte ďalšiu funkciu,"
+421.900,423.900,ktorou môže byť napríklad počítadlo.
+424.900,426.900,Môžeme si to vyskúšať.
+427.900,429.900,"Potrasím micro:bitom, mám papier,"
+430.900,432.900,pridám si tlačidlom A jeden bod.
+433.900,435.900,"Opäť s niekým hrám,"
+436.900,438.900,"mám kameň, znova som vyhrala,"
+439.900,441.900,pripočítam si jeden bod.
+442.900,444.900,"Keď chcem body zobraziť,"
+445.900,447.900,"stačí, aby som klikla na tlačidlo B"
+448.900,450.900,a zobrazia sa mi body.
+451.900,453.900,Toto počítadlo si vyskúšajte doplniť
+454.900,456.900,aj vy doma do vášho programu.
+457.900,459.900,"Nebudete na to potrebovať žiadne nové vedomosti,"
+460.900,462.900,"stačí vám iba to, čo sme sa doteraz naučili."

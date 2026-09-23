@@ -1,0 +1,63 @@
+start,end,text
+0.000,4.000,Moje skúsenosti s pestovaním rastlín sú relatívne mizerné.
+4.000,8.200,"Napríklad aj tieto dve položivé veci, ktoré vidíte na poličkách za mnou,"
+8.200,11.500,mi za posledných niekoľko mesiacov už párkrát vyschli
+11.500,15.600,a vždy pred natáčaniami ich intenzívne oživujem polievaním.
+15.600,19.300,"Aj preto si dnes zostrojíme pomocou micro:bita senzor,"
+19.300,23.300,ktorý bude merať vlhkosť pôdy a podľa toho zobrazovať smajlíka.
+23.300,28.300,"Využijeme na to iba to, čo nájdeme aj v základnej sade Učíme s Hardvérom."
+28.600,34.100,"Micro:bit, krokosvorkové káble a kúsok vodivého drôtu."
+34.100,40.100,"Začnime najprv zapojením a tým, ako by senzor vlhkosti pôdy mal fungovať."
+40.100,44.100,Na okraje kvetináča vložím dva kúsky drôtu.
+44.900,63.900,"Úplne suchá pôda nie je vôbec vodivá, čiže odpor medzi dvoma kúskami drôtu bude veľmi vysoký."
+63.900,68.900,"Čím viac vody do pôdy pridáme, tým viac minerálov sa vo vode rozpustí"
+68.900,73.900,"a tým sa vlhká pôda stáva viac a viac vodivou, čiže sa znižuje jej odpor."
+73.900,79.900,"Ten princíp je veľmi podobný meraniu salinity vody, kde sme pridávali do vody soli."
+79.900,83.900,Zapojenie bude rovnaké ako v predchádzajúcom videu.
+83.900,87.900,K dvom kúskom drôtu pripevním stupňový kolík.
+91.900,93.900,Konkrétne kolík 1.
+96.900,98.900,A kolík 3V.
+104.900,108.900,Program bude taktiež rovnaký ako v predchádzajúcom videu.
+108.900,113.900,"Ako prvé nastavíme zabudovaný rezistor kolíka P1 na dol,"
+113.900,117.900,čiže prepojíme zabudovaný 13-kilohmový rezistor so zemou.
+134.900,141.900,"Následne, cez sériové rozhranie budeme posielať namerané údaje"
+141.900,146.900,z analógového čítania z kolíka P1 do prostredia MakeCode.
+151.900,155.900,Odosielané hodnoty si pomenujem ako vlhkosť.
+164.900,168.900,Pridám aj 100-milisekundovú pauzu.
+172.900,176.900,"Po nahratí vidím v konzole namerané údaje,"
+176.900,181.900,"ktoré sú v suchej pôde, v mojom prípade, blízke číslu 400."
+181.900,184.900,"Ako náhle začnem vodu polievať,"
+185.900,189.900,minerály z pôdy sa vo vode postupne začnú rozpúšťať
+189.900,193.900,"a spôsobovať, že v pôde sa zvyšuje vodivosť."
+198.900,203.900,"Niekedy, ale po naliatí niekoľko sekúnd až minút trvá,"
+203.900,209.900,kým voda minerály rozpustí a teda kým micro:bit rozpozná zvýšenú vlhkosť pôdy.
+209.900,213.900,"Vďaka vypisovaniu hodnôt do konzoly už presne viem,"
+213.900,217.900,aká vlhkosť pôdy je pri akých nameraných hodnotách.
+217.900,221.900,"Pamätajte, že zloženie vašej pôdy, ako je veľkosť vášho kvetináča,"
+221.900,225.900,"bude určite iné, a preto si takéto meranie vždy správte predtým,"
+225.900,229.900,ako si nainštalujete finálny senzor vlhkosti pôdy.
+229.900,233.900,K tomu sa dostávame práve teraz.
+233.900,237.900,"Príkazy na odosielanie hodnôt, ktoré sú na konzole,"
+237.900,241.900,"môžem vymazať a pridám premennú vlhkosť,"
+241.900,245.900,ktorá bude nastavovať na analógové čítanie kolíka P1.
+261.900,265.900,"Následne pomocou podmienky určím, v akom stave je pôda."
+265.900,269.900,"Ak je vlhkosť vyššia ako 800,"
+269.900,273.900,rastlina netrpí suchom a na displeji zobrazím šťastného smajlíka.
+296.900,300.900,"K tejto hodnote 800 som sa dopracoval tak,"
+300.900,304.900,"že som chvíľu počkal, kým sa naliata voda rozliala po celom kvetináči."
+306.900,310.900,"Ďalej, ak je vlhkosť vyššia ako 600,"
+310.900,314.900,"pôda síce nie je úplne suchá, ale určite by už bolo vhodné zaliať."
+314.900,318.900,Zobrazíme preto na displeji smutného smajlíka.
+325.900,335.900,"No ak nie je hodnota vlhkosti ani vyššia ako 800,"
+335.900,339.900,"ani vyššia ako 600, rastlina už začína trpieť"
+339.900,342.900,a je potrebné ju urgentne poliať.
+342.900,346.900,Preto okrem nahnevaného smajlíka pridáme aj prehrávanie tónu stredné C.
+355.900,368.900,"Ak máte micro:bit verzie 1, ktorý ešte nemá zabudovaný reproduktor,"
+368.900,371.900,budete si musieť pripojiť externý reproduktor.
+371.900,374.900,Poďme si výsledný program odskúšať.
+374.900,378.900,"Keď ho mám zapojený ku kvetináču, do ktorého som pred chvíľou nalial plno vody,"
+378.900,381.900,samozrejme zobrazuje šťastného smajlíka.
+381.900,386.900,"No a ako sa bude tváriť, ak ho zapojím do kvetináča na poličke?"
+411.900,430.900,"Našťastie, ako som hovoril, pred natáčaním mi rastliny na poličkách výdatne zalejem,"
+430.900,434.900,čiže zatiaľ mi reproduktor na micro:bite nebzučí.
+441.900,443.900,Ďakujem za pozornosť.

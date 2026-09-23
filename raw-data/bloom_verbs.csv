@@ -1,0 +1,37 @@
+level,level_name_sk,level_name_en,verb,example
+1,Zapamätať si,Remember,vymenovať,"Študent vie vymenovať základné aritmetické operácie."
+1,Zapamätať si,Remember,pomenovať,
+1,Zapamätať si,Remember,definovať,
+1,Zapamätať si,Remember,uviesť,
+1,Zapamätať si,Remember,identifikovať,
+1,Zapamätať si,Remember,rozpoznať,
+2,Porozumieť,Understand,opísať,"Študent vie opísať vzťah medzi obvodom a obsahom obdĺžnika."
+2,Porozumieť,Understand,vysvetliť,
+2,Porozumieť,Understand,interpretovať,
+2,Porozumieť,Understand,zhrnúť,
+2,Porozumieť,Understand,porovnať,
+2,Porozumieť,Understand,ilustrovať,
+3,Aplikovať,Apply,použiť,"Študent vie použiť Pytagorovu vetu na výpočet prepony pravouhlého trojuholníka."
+3,Aplikovať,Apply,aplikovať,
+3,Aplikovať,Apply,riešiť,
+3,Aplikovať,Apply,vypočítať,
+3,Aplikovať,Apply,vykonať,
+3,Aplikovať,Apply,skonštruovať,
+4,Analyzovať,Analyze,rozlišovať,"Študent vie rozlišovať medzi spojitou a nespojitou funkciou."
+4,Analyzovať,Analyze,analyzovať,
+4,Analyzovať,Analyze,rozčleniť,
+4,Analyzovať,Analyze,preskúmať,
+4,Analyzovať,Analyze,prisúdiť,
+4,Analyzovať,Analyze,usporiadať,
+5,Hodnotiť,Evaluate,posúdiť,"Študent vie posúdiť, ktorá metóda riešenia kvadratickej rovnice je v danom prípade najefektívnejšia."
+5,Hodnotiť,Evaluate,zhodnotiť,
+5,Hodnotiť,Evaluate,skontrolovať,
+5,Hodnotiť,Evaluate,obhájiť,
+5,Hodnotiť,Evaluate,odhadnúť,
+5,Hodnotiť,Evaluate,argumentovať,
+6,Tvoriť,Create,navrhnúť,"Študent vie navrhnúť dôkaz, že súčet uhlov v trojuholníku je 180°."
+6,Tvoriť,Create,vytvoriť,
+6,Tvoriť,Create,naplánovať,
+6,Tvoriť,Create,skomponovať,
+6,Tvoriť,Create,zostaviť,
+6,Tvoriť,Create,vyvinúť,

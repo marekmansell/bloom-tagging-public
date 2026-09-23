@@ -1,0 +1,49 @@
+course_id,lecture_slug,lecture_title,annotator,lo_id,text,verb,cognitive_process
+1,bananovy-klavir,Banánový klavír,a,a_bananovy_klavir_001,Študent vie opísať komponenty potrebné na zostrojenie banánového klavíra.,opísať,2
+1,bananovy-klavir,Banánový klavír,a,a_bananovy_klavir_002,"Študent vie identifikovať programovateľné kolíky 0, 1 a 2 na micro:bite.",identifikovať,1
+1,bananovy-klavir,Banánový klavír,a,a_bananovy_klavir_003,Študent vie uviesť funkciu kolíka GND v projekte banánového klavíra.,uviesť,1
+1,bananovy-klavir,Banánový klavír,a,a_bananovy_klavir_004,Študent vie opísať princíp uzatvárania elektrického obvodu pri dotyku banánu.,opísať,2
+1,bananovy-klavir,Banánový klavír,a,a_bananovy_klavir_005,"Študent vie použiť príkaz ""keď sa kolík P1 stlačí"" na rozpoznanie dotyku banánu.",použiť,3
+1,bananovy-klavir,Banánový klavír,a,a_bananovy_klavir_006,"Študent vie skonštruovať program, ktorý pri stlačení kolíka prehrá tón stredné C.",skonštruovať,3
+1,bananovy-klavir,Banánový klavír,a,a_bananovy_klavir_007,Študent vie použiť krokosvorkové káble na pripojenie banánov a reproduktora k micro:bitu.,použiť,3
+1,bananovy-klavir,Banánový klavír,a,a_bananovy_klavir_008,"Študent vie uviesť, že micro:bity musia mať nastavenú rovnakú rádio skupinu, aby spolu komunikovali.",uviesť,1
+1,bananovy-klavir,Banánový klavír,a,a_bananovy_klavir_009,"Študent vie skonštruovať program, ktorý cez rádio odošle frekvenciu tónu pri stlačení banánu.",skonštruovať,3
+1,bananovy-klavir,Banánový klavír,a,a_bananovy_klavir_010,"Študent vie použiť príkaz ""rádio pri prijatí"" na prehratie prijatého tónu.",použiť,3
+1,kamen-papier-noznice,"Kameň, papier, nožnice",a,a_kamen_papier_noznice_001,"Študent vie uviesť, že náhoda v hre sa simuluje generovaním čísel 1, 2 alebo 3.",uviesť,1
+1,kamen-papier-noznice,"Kameň, papier, nožnice",a,a_kamen_papier_noznice_002,Študent vie použiť blok potrasenia na spustenie hry.,použiť,3
+1,kamen-papier-noznice,"Kameň, papier, nožnice",a,a_kamen_papier_noznice_003,Študent vie použiť premennú na uloženie aktuálnej náhodnej hodnoty.,použiť,3
+1,kamen-papier-noznice,"Kameň, papier, nožnice",a,a_kamen_papier_noznice_004,Študent vie použiť blok náhodného čísla z kategórie matematika v rozsahu od 1 do 3.,použiť,3
+1,kamen-papier-noznice,"Kameň, papier, nožnice",a,a_kamen_papier_noznice_005,Študent vie použiť podmienku ak–inak na vetvenie programu podľa hodnoty premennej.,použiť,3
+1,kamen-papier-noznice,"Kameň, papier, nožnice",a,a_kamen_papier_noznice_006,"Študent vie použiť blok porovnania na otestovanie, či sa hodnota premennej rovná danému číslu.",použiť,3
+1,kamen-papier-noznice,"Kameň, papier, nožnice",a,a_kamen_papier_noznice_007,"Študent vie skonštruovať program, ktorý pri potrasení zobrazí jeden zo symbolov kameň, papier alebo nožnice.",skonštruovať,3
+1,kamen-papier-noznice,"Kameň, papier, nožnice",a,a_kamen_papier_noznice_008,Študent vie použiť blok zobraziť LED na nakreslenie symbolov hry.,použiť,3
+1,kamen-papier-noznice,"Kameň, papier, nožnice",a,a_kamen_papier_noznice_009,"Študent vie vysvetliť, prečo je v programe potrebná pauza a vymazanie obrazovky.",vysvetliť,2
+1,kamen-papier-noznice,"Kameň, papier, nožnice",a,a_kamen_papier_noznice_010,Študent vie opísať možnosť rozšírenia hry o počítadlo skóre pomocou tlačidiel A a B.,opísať,2
+5,pokrocily-led-pasiky,LED pásiky,a,a_pokrocily_led_pasiky_001,Študent vie vymenovať tri základné druhy LED pásikov.,vymenovať,1
+5,pokrocily-led-pasiky,LED pásiky,a,a_pokrocily_led_pasiky_002,"Študent vie opísať vlastnosti jednofarebných, viacfarebných a individuálne adresovateľných LED pásikov.",opísať,2
+5,pokrocily-led-pasiky,LED pásiky,a,a_pokrocily_led_pasiky_003,"Študent vie identifikovať farby káblikov NeoPixel pásika a kolíky micro:bita, ku ktorým sa pripájajú.",identifikovať,1
+5,pokrocily-led-pasiky,LED pásiky,a,a_pokrocily_led_pasiky_004,"Študent vie uviesť, že dlhšie NeoPixel pásiky vyžadujú napájanie 5 V.",uviesť,1
+5,pokrocily-led-pasiky,LED pásiky,a,a_pokrocily_led_pasiky_005,"Študent vie analyzovať postup, akým sa 24 bajtov informácií presúva LED pásikom od prvého pixselu po posledný.",analyzovať,4
+5,pokrocily-led-pasiky,LED pásiky,a,a_pokrocily_led_pasiky_006,"Študent vie vysvetliť, prečo každý piksel potrebuje 3 bajty na nastavenie svojej farby.",vysvetliť,2
+5,pokrocily-led-pasiky,LED pásiky,a,a_pokrocily_led_pasiky_007,Študent vie použiť rozšírenie NeoPixel v prostredí MakeCode.,použiť,3
+5,pokrocily-led-pasiky,LED pásiky,a,a_pokrocily_led_pasiky_008,"Študent vie použiť príkaz ""nastaviť strip na NeoPixel"" na zaregistrovanie pásika a jeho dĺžky v programe.",použiť,3
+5,pokrocily-led-pasiky,LED pásiky,a,a_pokrocily_led_pasiky_009,"Študent vie skonštruovať program, ktorý rozsvieti celý LED pásik na zvolenú farbu.",skonštruovať,3
+5,pokrocily-led-pasiky,LED pásiky,a,a_pokrocily_led_pasiky_010,"Študent vie skonštruovať program, ktorý pri stlačení tlačidla A alebo B zmení farbu LED pásika.",skonštruovať,3
+5,pokrocilyvlhkost-pody,Meranie vlhkosti pôdy,a,a_pokrocilyvlhkost_pody_001,Študent vie vymenovať komponenty potrebné na zostrojenie senzora vlhkosti pôdy.,vymenovať,1
+5,pokrocilyvlhkost-pody,Meranie vlhkosti pôdy,a,a_pokrocilyvlhkost_pody_002,Študent vie opísať princíp merania vlhkosti pôdy pomocou jej elektrickej vodivosti.,opísať,2
+5,pokrocilyvlhkost-pody,Meranie vlhkosti pôdy,a,a_pokrocilyvlhkost_pody_003,Študent vie analyzovať vzťah medzi obsahom rozpustených minerálov v pôde a jej vodivosťou.,analyzovať,4
+5,pokrocilyvlhkost-pody,Meranie vlhkosti pôdy,a,a_pokrocilyvlhkost_pody_004,Študent vie skonštruovať zapojenie dvoch kúskov drôtu ku kolíkom P1 a 3V micro:bita.,skonštruovať,3
+5,pokrocilyvlhkost-pody,Meranie vlhkosti pôdy,a,a_pokrocilyvlhkost_pody_005,Študent vie použiť príkaz na nastavenie zabudovaného rezistora kolíka P1 na dol.,použiť,3
+5,pokrocilyvlhkost-pody,Meranie vlhkosti pôdy,a,a_pokrocilyvlhkost_pody_006,Študent vie použiť sériové rozhranie na výpis nameraných hodnôt z kolíka P1 do konzoly.,použiť,3
+5,pokrocilyvlhkost-pody,Meranie vlhkosti pôdy,a,a_pokrocilyvlhkost_pody_007,Študent vie použiť analógové čítanie kolíka na získanie hodnoty vlhkosti pôdy.,použiť,3
+5,pokrocilyvlhkost-pody,Meranie vlhkosti pôdy,a,a_pokrocilyvlhkost_pody_008,"Študent vie skonštruovať program, ktorý podľa hodnoty vlhkosti zobrazí jedného z troch smajlíkov.",skonštruovať,3
+5,pokrocilyvlhkost-pody,Meranie vlhkosti pôdy,a,a_pokrocilyvlhkost_pody_009,Študent vie posúdiť hraničnú hodnotu vlhkosti pôdy pre svoj kvetináč na základe vlastného merania.,posúdiť,5
+5,pokrocilyvlhkost-pody,Meranie vlhkosti pôdy,a,a_pokrocilyvlhkost_pody_010,"Študent vie uviesť, že micro:bit verzie 1 nemá zabudovaný reproduktor.",uviesť,1
+42,pbl-7-ucitelskych-postupov,PBL Akadémia: 7 základných učiteľských postupov v projektovom vyučovaní,a,a_pbl_7_ucitelskych_postupov_001,Študent vie vymenovať 7 základných učiteľských postupov projektového vyučovania podľa Gold Standard PBL.,vymenovať,1
+42,pbl-7-ucitelskych-postupov,PBL Akadémia: 7 základných učiteľských postupov v projektovom vyučovaní,a,a_pbl_7_ucitelskych_postupov_002,Študent vie opísať postup designovania a plánovania projektu.,opísať,2
+42,pbl-7-ucitelskych-postupov,PBL Akadémia: 7 základných učiteľských postupov v projektovom vyučovaní,a,a_pbl_7_ucitelskych_postupov_003,Študent vie opísať význam zasúladenia projektu so vzdelávacími štandardmi.,opísať,2
+42,pbl-7-ucitelskych-postupov,PBL Akadémia: 7 základných učiteľských postupov v projektovom vyučovaní,a,a_pbl_7_ucitelskych_postupov_004,Študent vie opísať prvky podporujúcej projektovej kultúry.,opísať,2
+42,pbl-7-ucitelskych-postupov,PBL Akadémia: 7 základných učiteľských postupov v projektovom vyučovaní,a,a_pbl_7_ucitelskych_postupov_005,Študent vie opísať úlohu učiteľa pri manažovaní úloh a kontrolných míľnikov projektu.,opísať,2
+42,pbl-7-ucitelskych-postupov,PBL Akadémia: 7 základných učiteľských postupov v projektovom vyučovaní,a,a_pbl_7_ucitelskych_postupov_006,Študent vie opísať podporné schodníky (scaffolding) ako spôsob nasmerovania žiaka.,opísať,2
+42,pbl-7-ucitelskych-postupov,PBL Akadémia: 7 základných učiteľských postupov v projektovom vyučovaní,a,a_pbl_7_ucitelskych_postupov_007,"Študent vie uviesť, že hodnotenie procesu zahŕňa formatívne aj sumatívne formy.",uviesť,1
+42,pbl-7-ucitelskych-postupov,PBL Akadémia: 7 základných učiteľských postupov v projektovom vyučovaní,a,a_pbl_7_ucitelskych_postupov_008,Študent vie opísať úlohu učiteľa ako facilitátora projektu.,opísať,2

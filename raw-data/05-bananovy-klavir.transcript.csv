@@ -1,0 +1,101 @@
+start,end,text
+0.000,9.000,"Ahojte, som Marek Mansell a budem vás sprevádzať týmto Enter micro:bit videokurzom."
+9.000,16.000,"Asi už viete, že s micro:bitom sa dajú robiť rôzne zaujímavé projekty, ale už ste niekedy videli elektronický klavír s klávesami z banánov?"
+16.000,18.000,"Povedzme si, čo budeme potrebovať."
+18.000,29.000,"Dvakrát micro:bit s USB káblami, USB nabíjačku k mobilu, reproduktor s jack vstupom, krokosvorkové káble, alobal a samozrejme naše obľúbené banány."
+29.000,37.000,"Banány v našom klavíri nahrádzajú klávesy, takže vždy, keď sa rukou dotkneme banánu, micro:bit dotyk rozpozná a prehrá tón."
+37.000,46.000,"Dôležitou súčasťou nášho projektu sú malé kovové plošky na spodnej strane micro:bita, ktoré sa nazývajú kolíky a pomocou ktorých micro:bit rozpoznáva okolitý svet."
+46.000,55.000,"Zľava sú označené číslami 0, 1 a 2. Tie sú programovateľné a budeme k nim pripájať reproduktor a banány."
+55.000,59.000,"Kolík 3V slúži na napájanie, ale ten v tomto projekte nevyužijeme."
+59.000,67.000,"Posledným kolíkom je uzemňovací kolík, označený písmenami GND, skratka anglického ground, čiže v preklade zem."
+67.000,73.000,"Ten nám bude uzemňovať reproduktor, bez čoho by nefungoval, ale zároveň nám poslúži aj pri stláčaní klávesov."
+73.000,82.000,"Totižto, ak prepojíme kolík GND k banánu, uzavrie sa elektrický okruh medzi kolíkmi a micro:bit bude vedieť, že má zahrať tón."
+82.000,87.000,"Poďme do prostredia MakeCode, kde si naprogramujeme micro:bit tak, aby robil to, čo chceme."
+87.000,96.000,"Z kategórie vstup vyberieme príkaz, keď sa kolík P0 stlačí, ktorý bude rozpoznávať dotyk banánu a P0 zmeníme na P1."
+96.000,104.000,Na P0 totiž bude pripojený reproduktor. Dovnútra vložíme príkaz prehratia tónu stredné C.
+104.000,106.000,Prečo práve stredné C?
+106.000,113.000,Pretože tento tón sa nachádza v strede klaviatúry a väčšina piesní sa začína hrať niekde v jeho blízkosti.
+113.000,116.000,Pokračujeme kódom pre ďalší banán.
+116.000,120.000,"Opäť vezmeme tie isté dva príkazy, ktoré sme použili pri prvom banáne,"
+120.000,125.000,"no pri príkaze, keď sa kolík P0 stlačí, zmeníme kolík na P2."
+125.000,131.000,"Prehrávať budeme ale vedľajší tón, ktorý je o jeden vyšší, čiže tón stredné D."
+132.000,138.000,"Teraz nám zostáva už len pripojiť reproduktor a banán k microbitu, na čo použijeme krokosvorkové káble."
+139.000,142.000,Prepojíme prvý banán s kolíkom P1
+144.000,147.000,a druhý banán s kolíkom P2.
+152.000,155.000,Ešte nám ale chýba prepájanie uzemnenia s banánmi.
+155.000,160.000,"Použijeme na to krokosvorkový káblik, ktorý na jednej strane pripojíme ku kúsku alobalu"
+160.000,163.000,a na druhej strane ku kolíku GND.
+164.000,169.000,"K microbitu môžeme pripojiť akýkoľvek reproduktor, ktorý má klasickú koncovku."
+169.000,171.000,"Tá sa nazýva 3,5 mm jack."
+171.000,175.000,Ten má obvykle tri časti predelené plastovými krúžkami.
+175.000,178.000,"Prvá časť posiela signál ľavému reproduktoru,"
+178.000,184.000,druhá časť pravému reproduktoru a posledná slúži ako spoločná zem pre oba reproduktory.
+184.000,188.000,"Micro:bit ale dokáže prehrávať hudbu iba na jednom reproduktore,"
+188.000,192.000,a preto pripojíme prvú časť konektora pre ľavý reproduktor
+192.000,194.000,s kolíkom 0 na micro:bite.
+197.000,202.000,"Poslednú časť pripojíme s alobalom, ktorý už máme pripojený s kolíkom GND z micro:bita."
+203.000,205.000,Výsledné zapojenie by malo vyzerať takto.
+205.000,209.000,Teraz už nám stačí pripojiť micro:bit k počítaču a nahrať náš kód.
+213.000,216.000,Teraz si už môžeme náš nový hudobný nástroj odskúšať.
+216.000,220.000,Najprv sa jednou rukou dotknieme uzemneného kúsku alobalu
+220.000,223.000,a potom sa len veľmi krátko dotknieme prvého banánu
+224.000,225.000,a druhého banánu.
+227.000,230.000,"Ak vám náhodou nefunguje prehrávanie hudby úplne správne,"
+230.000,234.000,"aj napriek tomu, že ste nahrali správny kód a dobre pripojili banány,"
+234.000,238.000,skúste micro:bit odpojiť od počítača a napájať ho pomocou baterky.
+238.000,240.000,Niekedy je to oveľa spoľahlivejšie.
+240.000,244.000,"Žiaľ, dva banány klavír nerobia a preto ich musím ešte niekoľko pridať."
+244.000,247.000,"No problémom je, že micro:bit už nemá žiadne voľné kolíky."
+247.000,250.000,"Vyriešime to tak, že použijeme druhý micro:bit,"
+250.000,252.000,ku ktorému pripojíme tri banány
+252.000,257.000,"a pri každom stlačení klávesu pošle micro:bit prvému bezdrôtovú správu,"
+257.000,259.000,aký tón má prehrať na reproduktore.
+259.000,263.000,"Náš existujúci kód pre prvý micro:bit preto musíme upraviť,"
+263.000,266.000,aby prehrával aj tóny prijaté bezdrôtovou komunikáciou.
+266.000,271.000,Do príkazu počas spustenia micro:bita nastavíme rádio skupinu 1.
+271.000,275.000,"Nastaviť skupinu je dôležité, keďže micro:bity vedia spolu komunikovať"
+275.000,278.000,iba ak majú nastavenú rovnakú skupinu.
+278.000,284.000,"Následne z kategórie Rádio použijeme príkaz Rádio pri prijatí Receive Number,"
+284.000,287.000,ktorý bude počúvať na prichádzajúce správy
+287.000,290.000,a ukladať prijatý tón do premennej Receive Number.
+293.000,296.000,"Ten prehráme tak, že chytíme premennú Receive Number"
+296.000,299.000,a skopírujeme ju do príkazu na prehratie tónu.
+299.000,302.000,Nezabudnite upravený program nahrať na micro:bit.
+302.000,305.000,"Keďže teraz potrebujeme naprogramovať druhý micro:bit,"
+305.000,308.000,ten prvý je potrebné odpojiť od počítača.
+308.000,310.000,"Aby nám ale stále fungoval,"
+310.000,314.000,pripojíme ho do klasického adaptéru pre mobily alebo k malej batérii.
+314.000,316.000,"K počítaču teraz pripojíme druhý micro:bit,"
+316.000,318.000,k ktorému pripojíme 3 ďalšie banány.
+318.000,321.000,"Aj pri prehrávaní tónov na týchto banánoch je potrebné,"
+321.000,326.000,"aby sme sa jednou rukou držali uzemnenia na micro:bite, čiže kolíka GND."
+326.000,329.000,"Aby sme nemuseli neustále držať oba kúsky alobalu,"
+329.000,334.000,"môžeme si to zjednodušiť prepojením kolíka GND k už existujúcemu kúsku alobalu,"
+334.000,337.000,čím spojíme uzemnenia oboch micro:bitov.
+338.000,341.000,Pre druhý micro:bit vytvoríme nový program.
+341.000,343.000,"Aby sme vedeli komunikovať s prvým micro:bitom,"
+343.000,346.000,nastavíme rádio skupinu na 1.
+346.000,349.000,Následne pre prvý banán použijeme príkaz
+349.000,351.000,"KEĎ SA KOLÍK P0 STLAČÍ,"
+351.000,354.000,do ktorého vložíme príkaz RÁDIO ODOSLAŤ ČÍSLO.
+355.000,356.000,Prečo číslo?
+356.000,359.000,Pretože každá nota je v skutočnosti iba nejaká frekvencia
+359.000,361.000,a frekvencia je číslo.
+361.000,365.000,"Keď si vezmeme blok stredné C a klikneme naň,"
+365.000,368.000,"zistíme, že má frekvenciu 262 Hz."
+368.000,371.000,"My ho zmeníme na stredné E,"
+371.000,375.000,"keďže prvé dve noty, stredné C a D, už máme na prvom micro:bite."
+375.000,381.000,"To isté spravíme aj pre ďalšie dva banány na kolíkoch P1 a P2,"
+381.000,385.000,avšak noty pozmeníme na stredné F a stredné G.
+391.000,394.000,Po nahratí by nám malo fungovať už všetkých 5 klávesov.
+399.000,402.000,"Samozrejme, takýto klavír by sme mohli ďalej vylepšovať."
+402.000,406.000,"Napríklad pridaním ďalšieho micro:bitu by sme získali už 8 klávesov,"
+406.000,409.000,z čoho by bol taký malý plnohodnotný klavír.
+409.000,413.000,"Ďalšou možnosťou je pozmeniť program tak, aby micro:bit nehral fixné dĺžky nôt,"
+413.000,415.000,"kedy keď sa krátko dotkne banánu,"
+415.000,419.000,"ale hral noty tak dlho, ako sa ich držím, napríklad takto."
+432.000,435.000,"V tomto prípade stačí iba pozmeniť program, návod"
+435.000,437.000,ako nájdete dole pod videom.
+437.000,439.000,"Ak vás zaujalo toto video, budem rád,"
+439.000,442.000,"ak si pozriete aj niektoré z ďalších projektov,"
+442.000,445.000,"ktoré sme pre vás pripravili, ako napríklad Smart Kvetináč."
