@@ -1,0 +1,1 @@
+id,registration_id,lecture_id,action_type,video_timestamp,created_at,lecture_slug,lecture_title,lecture_video_duration,chapter_id,chapter_slug,chapter_title,course_id,course_slug,course_title,run_id,run_slug,user_id,duration,percent,seconds,prev_seconds,kind,label,language,startTime,playbackRate,video_watched_time_range
